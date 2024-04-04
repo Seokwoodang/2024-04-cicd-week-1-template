@@ -14,7 +14,7 @@ const Home = () => {
     <StBody>
       <div className="innerBody">
         <Button text="go Success" onClick={() => navigate(`/success`)} />
-        과연 성공했는가!!!!!!
+        성공해라 진짜
         <Button text="make Error" onClick={() => throwError()} />
       </div>
     </StBody>
